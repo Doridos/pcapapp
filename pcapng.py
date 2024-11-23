@@ -60,7 +60,7 @@ def read_comment_from_pcapng(input_file, packet_number):
         if comment_bytes:
             comment = comment_bytes.decode('utf-8')
         else:
-            comment = "No comment."
+            comment = ""
 
         result = {
             "packet_number": packet_number,

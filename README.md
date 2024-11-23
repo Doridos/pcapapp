@@ -17,8 +17,8 @@ This tool allows you to add and read comments in PCAPNG files. It provides a sim
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone git@github.com:Doridos/pcapapp.git
+    cd pcapapp
     ```
 
 2. Install the required dependencies:
